@@ -15,7 +15,7 @@ a {
 }
 
 .section.hero-bg-image {
-  background-image: url('../images/');
+  background-image: url('../images/Hero.webp');
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,7 +42,7 @@ a {
 .section.footer {
   color: #fff;
   background-color: #0d0d0d;
-  background-image: url('../images/');
+  background-image: url('../images/Footer.webp');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
