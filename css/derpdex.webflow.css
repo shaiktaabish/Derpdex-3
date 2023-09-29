@@ -609,7 +609,11 @@ a {
 
 .max-258px {
   width: 100%;
-  max-width: 25.37em;
+  max-width: 40em;
+}
+
+.max-258px.mobike {
+  display: none;
 }
 
 .icon {
@@ -1572,6 +1576,17 @@ a {
 
   .para-24px-hero {
     line-height: 170%;
+  }
+
+  .max-258px {
+    display: none;
+  }
+
+  .max-258px.mobike {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 
   .icon {
