@@ -55,6 +55,10 @@ a {
   position: relative;
 }
 
+.section.relative-2.overflow-hidden {
+  overflow: hidden;
+}
+
 .container {
   width: 100%;
   max-width: 90em;
@@ -417,9 +421,9 @@ a {
   margin: auto;
   position: absolute;
   top: auto;
-  bottom: -5%;
+  bottom: 0%;
   left: auto;
-  right: 0%;
+  right: 14%;
 }
 
 .padding-right-307px {
@@ -688,7 +692,6 @@ a {
 .primary-buttom.bigger {
   min-width: 9.8em;
   white-space: nowrap;
-  cursor: none;
   background-image: none;
   justify-content: center;
   align-items: center;
@@ -719,7 +722,6 @@ a {
 }
 
 .button-border.relative {
-  cursor: none;
   position: relative;
 }
 
@@ -1432,7 +1434,16 @@ a {
     font-size: 3vw;
   }
 
-  .section.footer, .container.flex-down.m-1em {
+  .section.footer {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .container.flex-apart.relative {
+    margin-top: 0;
+  }
+
+  .container.flex-down.m-1em {
     padding-left: 1em;
     padding-right: 1em;
   }
@@ -1530,6 +1541,10 @@ a {
     width: 100%;
     max-width: 23.92em;
     min-width: 0;
+    margin-top: 2.5em;
+    display: block;
+    position: relative;
+    right: auto;
   }
 
   .flex-align-left {
@@ -1560,7 +1575,7 @@ a {
   }
 
   .max-438-21px.w--current {
-    max-width: 25em;
+    max-width: 100%;
   }
 
   .max-504px.flex-apart {
